@@ -1,4 +1,3 @@
-<<<<<<< HEAD:ZZZ/web/index.php
 <!DOCTYPE html>
 <html lang="en">
 <head>
