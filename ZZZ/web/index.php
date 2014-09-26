@@ -15,17 +15,12 @@
     <body>
         <div class="container-fluid" id='colorChange'>
         <h1 style=" color: white;
-<<<<<<< HEAD:ZZZ/web/index.jsp
         text-shadow: 2px 2px 1px darkgray;
         font-size: 150px">ZZZ</h1> 
         
         <img src="./pics/sheep.png" width="250px" height="250px" />
         <br />
         <br />
-=======
-    		    text-shadow: 2px 2px 1px lightgray;
-    		    font-size: 80px">ZZZ</h1> 
->>>>>>> 8f4874db208627656c5501c260b89ffab5e7b348:ZZZ/web/index.php
         <a href="#" class="btn btn-sample btn-lg">Nap Time</a>
         <div class="settings" id='colorChange'>
             <a href="#"><img src="./pics/gear.png" width="40px" height="40px" /></a>
