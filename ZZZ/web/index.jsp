@@ -10,11 +10,18 @@
     <link href="./Content/bootstrap.min.css" rel="stylesheet">
     </head > 
     <body>
-        <div class="container-fluid" style="text-align: center">
+        <div class="container-fluid" id='colorChange'>
         <h1 style=" color: white;
-    text-shadow: 2px 2px 1px lightgray;
-    font-size: 80px">ZZZ</h1> 
+        text-shadow: 2px 2px 1px darkgray;
+        font-size: 150px">ZZZ</h1> 
+        
+        <img src="./pics/sheep.png" width="250px" height="250px" />
+        <br />
+        <br />
         <a href="#" class="btn btn-sample btn-lg">Nap Time</a>
+        <div class="settings" id='colorChange'>
+            <a href="#"><img src="./pics/gear.png" width="40px" height="40px" /></a>
+        </div>
         </div>
     <script src="./Scripts/jquery-1.9.1.min.js">
     </script>
