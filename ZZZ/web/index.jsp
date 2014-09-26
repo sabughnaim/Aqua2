@@ -29,5 +29,9 @@
 	<script>
 	    playAudio("http://192.168.1.12/upload/ts_music.mp3",10000);
 	</script>
+          <script src="./Scripts/jquery-1.9.1.min.js">
+        </script>
+        <script src="./Scripts/bootstrap.min.js">
+        </script>
     </body>
 </html>
