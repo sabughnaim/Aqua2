@@ -16,7 +16,7 @@
         <div class="container-fluid" id='colorChange'>
         <h1 style=" color: white;
         text-shadow: 2px 2px 1px darkgray;
-        font-size: 150px">ZZZ</h1> 
+        font-size: 140px">ZZZ</h1> 
         
         <img src="./pics/sheep.png" width="250px" height="250px" />
         <br />
