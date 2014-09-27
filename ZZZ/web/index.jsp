@@ -8,30 +8,25 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <script src="./Scripts/jquery-1.9.1.min.js"></script>
     <script src="./Scripts/bootstrap.min.js"></script>
+    <script src="./Scripts/jquery.jplayer.min.js"></script>
     <script src="./Scripts/functions.js"></script>
     <link href="./home.css" rel="stylesheet">
     <link href="./Content/bootstrap.min.css" rel="stylesheet">
     </head > 
-    <body>
+    <body onload="window.focus();">
         <div class="container-fluid" id='colorChange'>
         <h1 style=" color: white;
         text-shadow: 2px 2px 1px darkgray;
-        font-size: 140px">ZZZ</h1> 
+        font-size: 140px">ZZZ</h1>
         
-        <img src="./pics/sheep.png" width="250px" height="250px" />
+        <img src="./pics/sheep.png" style="width:50%; max-width:250px;" />
         <br />
         <br />
-        <a href="#" class="btn btn-sample btn-lg">Nap Time</a>
+        <a href="#" id="nap_time" onclick="playAudio('./Content/ts_music.mp3',10000)" class="btn btn-sample btn-lg">Nap Time</a>
         <div class="settings" id='colorChange'>
             <a href="#"><img src="./pics/gear.png" width="40px" height="40px" /></a>
         </div>
         </div>
-	<script>
-	    playAudio("http://192.168.1.12/upload/ts_music.mp3",10000);
-	</script>
-          <script src="./Scripts/jquery-1.9.1.min.js">
-        </script>
-        <script src="./Scripts/bootstrap.min.js">
-        </script>
+	<div id="jquery_jplayer_0"></div>
     </body>
 </html>

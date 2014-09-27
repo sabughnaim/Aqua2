@@ -40,7 +40,8 @@ a{
   font-weight: bolder;
   color: white;
   border-color: white;
-  border-width: thick;
+  border-width: 5px;
+  margin-top: 25px;
 } 
 
 .container-fluid{
@@ -56,11 +57,11 @@ body{
 #colorChange{
     background-color: lightskyblue;
     animation-name: cyl;
-    animation-duration: 15s;
+    animation-duration: 5s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     -webkit-animation-name: cyl;
-    -webkit-animation-duration: 15s;
+    -webkit-animation-duration: 5s;
     -webkit-animation-direction: alternate;
     -webkit-animation-iteration-count: infinite;
 }
