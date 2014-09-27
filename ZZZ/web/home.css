@@ -65,14 +65,14 @@ a{
 }
 
 @keyframes cyl{
-    0%{background-color: #91DAFF;}
-    25%{background-color: #82C4E6;}
-    50%{background-color: #75B0CF;}
-    75%{background-color: #699EBA;}
+    0%{background-color: #66DBE8;}
+    25%{background-color: #59D5E3;}
+    50%{background-color: #52D0DE;}
+    75%{background-color: #48CAD9;}
 }
 @-webkit-keyframes cyl{
-    0%{background-color: #91DAFF;}
-    25%{background-color: #82C4E6;}
-    50%{background-color: #75B0CF;}
-    75%{background-color: #699EBA;}
+    0%{background-color: #66DBE8;}
+    25%{background-color: #59D5E3;}
+    50%{background-color: #52D0DE;}
+    75%{background-color: #48CAD9;}
 }
