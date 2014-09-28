@@ -26,7 +26,7 @@
   		<input id="hours" type="text" class="form-control" value="0"><span class="input-group-addon">hour</span>
 		<input id="mins" type="text" class="form-control" value="15"><span class="input-group-addon">min</span>
 	    </div>	    
-	    <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off" onclick="playAudio('./Content/ts_music.mp3',($('#hours').val()*60+$('#mins').val()*1)*60*1000)">Start</button>
+	    <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-lg btn-sample" autocomplete="off" onclick="playAudio('./Content/ts_music.mp3',($('#hours').val()*60+$('#mins').val()*1)*60*1000)">Start</button>
 	</div>
 	<div class="settings">
             <a href="#"><img src="./pics/gear.png" width="40px" height="40px" /></a>
