@@ -9,8 +9,9 @@
     <script src="./Scripts/jquery-1.9.1.min.js"></script>
     <script src="./Scripts/bootstrap.min.js"></script>
     <script src="./Scripts/functions.js"></script>
-    <link href="./home.css" rel="stylesheet">
+    
     <link href="./Content/bootstrap.min.css" rel="stylesheet">
+    <link href="./home.css" rel="stylesheet">
     </head > 
     <body>
         <div class="container-fluid" id='colorChange'>
