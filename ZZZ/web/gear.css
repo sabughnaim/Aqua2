@@ -65,6 +65,10 @@ a{
     ('input[name="gendercheck"]').bootstrapSwitch('data-on-text', Female, true);
 }
 
+.age{
+    width: 70%
+}
+
 @keyframes cyl{
     0%{background-color: #66DBE8;}
     25%{background-color: #59D5E3;}

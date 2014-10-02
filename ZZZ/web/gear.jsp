@@ -16,7 +16,7 @@
         <form role="form">
             <div class="form-group">
             <label for="age-input">Age</label>
-            <input type="age" class="form-control" id="exampleInputEmail1" placeholder="Enter age">
+            <input type="age" class="form-control" id="age-entry" placeholder="Enter age">
             </div>
         </form> 
 </html>
