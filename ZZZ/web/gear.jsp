@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="bootstrap.css" rel="stylesheet"/>
+         <link href="./Content/bootstrap.min.css" rel="stylesheet">
         <link href="bootstrap-switch.css" rel="stylesheet"/>
         <script src="jquery.js"></script>
         <script src="bootstrap-switch.js"></script>
