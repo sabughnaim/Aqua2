@@ -90,3 +90,10 @@ function timerStart() {				//function to start the timer
 	restTimeCountDown();
 	secondTwinkle();
 }
+function revealSettings(){
+    $("#timer").hide();
+    $("#home").hide();
+    $("#restTime").hide();
+    $("#settings").hide();
+    $("#set").show();
+}

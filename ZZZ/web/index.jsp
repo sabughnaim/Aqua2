@@ -35,8 +35,22 @@
 		<div class="countdown"><span id="restHours"></span><span id="secondColon0"> : </span><span id="restMins"></span><span id="secondColon1"> : </span><span id="restSecs"></span></div>
 		<button type="button" id="endButton" data-loading-text="Loading..." class="btn btn-lg btn-sample" autocomplete="off" onclick="location.reload();">End</button>
 	</div>
-	<div class="settings" style="display:none">
-            <a href="#"><img src="./pics/gear.png" width="40px" height="40px" /></a>
+	<div id="settings" class="settings">
+            <a href="#" onClick="revealSettings()"><img src="./pics/gear.png" width="40px" height="40px" /></a>
+        </div>
+        <div id="set" style="display:none;">
+            <form method="post" id="settings">
+                <div class="form-group">
+                    <input type="button" class="button btn-sample form-control" id="op1">10 minutes</input>
+                    <input type="button" class="button btn-sample form-control" id="op2">20 minutes</input>
+                    <input type="button" class="button btn-sample form-control" id="op3">30 minutes</input>
+                    <input type="button" class="button btn-sample form-control" id="op4">40 minutes</input>
+                    <input type="button" class="button btn-sample form-control" id="op5">60 minutes</input>
+                    <input type="button" class="button btn-sample form-control" id="op6">90 minutes</input>
+                    <input type="button" class="button btn-sample form-control" id="op7">120 minutes</input>
+                </div>
+                <button type="submit" class="btn btn-large btn-sample">Save</button>
+            </form>
         </div>
         </div>
 	<div id="jquery_jplayer_0"></div>
