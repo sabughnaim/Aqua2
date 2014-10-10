@@ -39,18 +39,15 @@
             <a href="#" onClick="revealSettings()"><img src="./pics/gear.png" width="40px" height="40px" /></a>
         </div>
         <div id="set" style="display:none;">
-            <form method="post" id="settings">
-                <div class="form-group">
-                    <button type="button" class="btn btn-lg btn-sample" id="op1">10 minutes</button>
-                    <button type="button" class="btn btn-lg btn-sample" id="op2">20 minutes</button>
-                    <button type="button" class="btn btn-lg btn-sample" id="op3">30 minutes</button>
-                    <button type="button" class="btn btn-lg btn-sample" id="op4">40 minutes</button>
-                    <button type="button" class="btn btn-lg btn-sample" id="op5">60 minutes</button>
-                    <button type="button" class="btn btn-lg btn-sample" id="op6">90 minutes</button>
-                    <button type="button" class="btn btn-lg btn-sample" id="op7">120 minutes</button>
-                </div>
-                <button type="submit" class="btn btn-large btn-sample">Save</button>
-            </form>
+           
+                    <button type="button" class="btn btn-lg btn-sample" data-toggle="button" id="op1">10 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" data-toggle="button" id="op2">20 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" data-toggle="button" id="op3">30 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" data-toggle="button" id="op4">40 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" data-toggle="button" id="op5">60 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" data-toggle="button" id="op6">90 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" data-toggle="button" id="op7">120 minutes</button>
+                <button onClick="hidesettings()" class="btn btn-lg btn-sample">Save</button>
         </div>
         </div>
 	<div id="jquery_jplayer_0"></div>

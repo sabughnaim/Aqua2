@@ -97,3 +97,10 @@ function revealSettings(){
     $("#settings").hide();
     $("#set").show();
 }
+function hidesettings(){
+    $("#timer").show();
+    $("#home").hide();
+    $("#restTime").hide();
+    $("#settings").hide();
+    $("#set").hide();
+}
