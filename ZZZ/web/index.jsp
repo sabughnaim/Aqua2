@@ -41,13 +41,13 @@
         <div id="set" style="display:none;">
             <form method="post" id="settings">
                 <div class="form-group">
-                    <input type="button" class="button btn-sample form-control" id="op1">10 minutes</input>
-                    <input type="button" class="button btn-sample form-control" id="op2">20 minutes</input>
-                    <input type="button" class="button btn-sample form-control" id="op3">30 minutes</input>
-                    <input type="button" class="button btn-sample form-control" id="op4">40 minutes</input>
-                    <input type="button" class="button btn-sample form-control" id="op5">60 minutes</input>
-                    <input type="button" class="button btn-sample form-control" id="op6">90 minutes</input>
-                    <input type="button" class="button btn-sample form-control" id="op7">120 minutes</input>
+                    <button type="button" class="btn btn-lg btn-sample" id="op1">10 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" id="op2">20 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" id="op3">30 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" id="op4">40 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" id="op5">60 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" id="op6">90 minutes</button>
+                    <button type="button" class="btn btn-lg btn-sample" id="op7">120 minutes</button>
                 </div>
                 <button type="submit" class="btn btn-large btn-sample">Save</button>
             </form>
