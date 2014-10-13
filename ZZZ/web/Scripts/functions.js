@@ -4,17 +4,17 @@
  *
  */
 $(document).ready(function(){
-   $("#jquery_jplayer_0").jPlayer({
-      ready: function () {
-	 $(this).jPlayer("setMedia", {
-	    mp3: "http://m.onlineclock.net/silent.mp3"
-	 });
-      },
-      swfPath: "./Scripts",
-      solution: "flash, html",
-      supplied: "mp3",
-      loop: true
-   });
+	$("#jquery_jplayer_0").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				mp3: "http://m.onlineclock.net/silent.mp3"
+			});
+		},
+		swfPath: "./Scripts",
+		solution: "flash, html",
+		supplied: "mp3",
+		loop: true
+	});
 });
 
 function playAudio(source,time) {		// function to play audio element after time (ms) delay, HTML5 required
@@ -74,6 +74,7 @@ function secondTwinkle() {			// function to twinkle the colon every second
 }
 
 function timerStart() {				//function to start the timer
+	playAudio('./Content/ts_music.mp3',($('#hours').val()*60+$('#mins').val()*1)*60*1000);
 	var napTime = ($('#hours').val()*60+$('#mins').val()*1)*60;
 	var napSecs = napTime % 60;
 	var napMins = Math.floor( napTime / 60) % 60;
@@ -97,10 +98,18 @@ function revealSettings(){
     $("#settings").hide();
     $("#set").show();
 }
+var buttonOpArray = ["#op1","#op2","#op3","#op4","#op5","#op6","#op7"];
 function hidesettings(){
     $("#timer").show();
     $("#home").hide();
     $("#restTime").hide();
-    $("#settings").hide();
+    $("#settings").show();
     $("#set").hide();
+    for (var i = 0; i < buttonOpArray.length; i++) {
+    	if ($("#set >"+buttonOpArray[i]).hasClass("active")) {
+    		$("#op-group > "+buttonOpArray[i]).show();
+    	} else {
+    		$("#op-group > "+buttonOpArray[i]).hide();
+    	}
+    };
 }
