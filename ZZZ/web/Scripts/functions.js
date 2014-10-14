@@ -4,6 +4,19 @@
  *
  */
 $(document).ready(function(){
+	if (localStorage["ops"] == undefined) {
+		var ops = ["#op1","#op3"];
+		localStorage["ops"]=JSON.stringify(ops);
+	}
+	var ops = JSON.parse(localStorage["ops"]);
+	$("#op-group").children().each(function() {
+		$(this).hide();
+	})
+	for (var i = 0; i < ops.length; i++) {
+		$("#set > #set-group >"+ops[i]).addClass("active");
+		$("#op-group > "+ops[i]).show();
+	};
+
 	$("#jquery_jplayer_0").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
@@ -73,9 +86,9 @@ function secondTwinkle() {			// function to twinkle the colon every second
 	},1000);
 }
 
-function timerStart() {				//function to start the timer
-	playAudio('./Content/ts_music.mp3',($('#hours').val()*60+$('#mins').val()*1)*60*1000);
-	var napTime = ($('#hours').val()*60+$('#mins').val()*1)*60;
+function countdownStart(mins) {				//function to start countdown
+	playAudio('./Content/ts_music.mp3',mins*60*1000);
+	var napTime = mins*60;
 	var napSecs = napTime % 60;
 	var napMins = Math.floor( napTime / 60) % 60;
 	var napHours = Math.floor( napTime / 3600);
@@ -98,18 +111,22 @@ function revealSettings(){
     $("#settings").hide();
     $("#set").show();
 }
-var buttonOpArray = ["#op1","#op2","#op3","#op4","#op5","#op6","#op7"];
+
 function hidesettings(){
+	var buttonOpArray = ["#op1","#op2","#op3","#op4","#op5","#op6","#op7"];
     $("#timer").show();
     $("#home").hide();
     $("#restTime").hide();
     $("#settings").show();
     $("#set").hide();
+    var newOps = [];
     for (var i = 0; i < buttonOpArray.length; i++) {
-    	if ($("#set >"+buttonOpArray[i]).hasClass("active")) {
+    	if ($("#set > #set-group >"+buttonOpArray[i]).hasClass("active")) {
     		$("#op-group > "+buttonOpArray[i]).show();
+    		newOps.push(buttonOpArray[i]);
     	} else {
     		$("#op-group > "+buttonOpArray[i]).hide();
     	}
     };
+    localStorage['ops']=JSON.stringify(newOps);
 }
