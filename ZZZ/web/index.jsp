@@ -8,10 +8,12 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <script src="./Scripts/jquery-1.9.1.min.js"></script>
     <script src="./Scripts/bootstrap.min.js"></script>
-    <script src="./Scripts/jquery.jplayer.min.js"></script>
+    <script src="./Scripts/jquery.jplayer.min.js"></script>    
+    <script type="text/javascript" src="./Scripts/jplayer.playlist.min.js"></script>
     <script src="./Scripts/functions.js"></script>    
     <link href="./Content/bootstrap.min.css" rel="stylesheet">
     <link href="./home.css" rel="stylesheet">
+    <link href="./Content/skin/blue.monday/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
 </head > 
 <body class="colorChange">
     <div class="container-fluid">
@@ -81,8 +83,17 @@
             <button onClick="hidesettings()" class="btn   btn-sample">Save</button>
         </div>
     </div>
-	<div id="jquery_jplayer_0"></div>
-        <iframe src="background.html" style="display:none;"></iframe>
+	<div id="jp_container_N" style="height:0px;">
+            <div class="jp-type-playlist" style="height:0px;">
+                <div id="jquery_jplayer_N" class="jp-jplayer"></div>                
+                <div class="jp-playlist" style="display:none">
+                    <ul>
+                        <!-- The method Playlist.displayPlaylist() uses this unordered list -->
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
 
