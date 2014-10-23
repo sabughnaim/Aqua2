@@ -24,8 +24,8 @@
             </br>
        	    <!--<div id="nap_time" onclick="showTimer()" class="btn   btn-sample">Nap Time</div>-->
         </div>
-        <div id="timer" style="display:none; margin:60px 0px 00px 0px">
-            <div class="input-group" style="margin-bottom:60px; display:none">
+        <div id="timer" style="display:none; margin:0px 0px 00px 0px">
+            <div class="input-group" style="margin-top:-30px; display:none">
                 <input id="hours" type="text" class="form-control" value="0"><span class="input-group-addon">hour</span>
                 <input id="mins" type="text" class="form-control" value="15"><span class="input-group-addon">min</span>
             </div>
@@ -50,14 +50,14 @@
                 <span id="secondColon1"> : </span>
                 <span id="restSecs"></span>
             </div>
-            <button type="button" id="endButton" data-loading-text="Loading..." class="btn   btn-sample" autocomplete="off" onclick="location.reload();">End</button>
+            <button type="button" id="endButton" data-loading-text="Loading..." class="btn btn-lg btn-sample" style="margin-top:-40px; width: 80%"autocomplete="off" onclick="location.reload();">End</button>
             <!--<button type="button" id="backButton" data-loading-text="Loading..." class="btn   btn-sample" autocomplete="off" onclick=".reload();">Back</button>-->
             
         </div>
         <div id="settings" class="settings">
             <a href="#" onClick="revealSettings()"><img src="./pics/gear.png" width="40px" height="40px" /></a>
         </div>
-        <div id="set" style="display:none;margin-top:40px">
+        <div id="set" style="display:none;margin-top:20px">
             <div id="set-group" data-toggle="buttons">
                 <!--<label id="op0" class="btn   btn-sample">
                     <input type="checkbox" checked>1 mins
