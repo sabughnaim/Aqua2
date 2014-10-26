@@ -19,7 +19,7 @@
     <div class="container-fluid">
         <h1 id="name">ZZZ</h1>
         <div id="home">
-            <img class="img_main" onclick="$('.img_main').addClass('move-left')" src="./pics/sheep.png"/>
+            <img class="img_main" onclick="$('.img_main').addClass('move-left'); var t=setTimeout(function() {$('.img_main').removeClass('move-left');},2000);" src="./pics/sheep.png"/>
         
             </br>
        	    <!--<div id="nap_time" onclick="showTimer()" class="btn   btn-sample">Nap Time</div>-->
