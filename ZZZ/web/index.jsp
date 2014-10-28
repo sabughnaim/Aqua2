@@ -6,10 +6,10 @@
     <link rel="shortcut icon" sizes="196x196" href="./pics/icon/ios/Icon-Small-50@2x.png">
     
     <link rel="apple-touch-icon" href="./pics/icon/ios/Icon-Small-50@2x.png">
-    <link rel="apple-touch-icon" href="./pics/icon/ios/Icon-72.png">
-    <link rel="apple-touch-icon" href="./pics/icon/ios/Icon-Small-50.png">
-    <link rel="apple-touch-icon" href="./pics/icon/ios/Icon-60.png">
-    <link rel="apple-touch-icon" href="./pics/icon/ios/Icon@2x.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./pics/icon/ios/Icon-72.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./pics/icon/ios/iTunesArtwork.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./pics/icon/ios/iTunesArtwork@2x.png">
+  
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
