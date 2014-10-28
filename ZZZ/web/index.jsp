@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        
+    <link rel="shortcut icon" sizes="128x128" href="./pics/icon/ios/Icon-Small-50@2x.png">
+    <link rel="shortcut icon" sizes="196x196" href="./pics/icon/ios/Icon-Small-50@2x.png">
+    
     <link rel="apple-touch-icon" href="./pics/icon/ios/Icon-Small-50@2x.png">
     <link rel="apple-touch-icon" href="./pics/icon/ios/Icon-72.png">
     <link rel="apple-touch-icon" href="./pics/icon/ios/Icon-Small-50.png">
